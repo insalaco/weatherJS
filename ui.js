@@ -7,7 +7,7 @@ class UI {
 
   paint(weather) {
     this.location.textContent = weather.name;
-    this.humidity.textContent = 'humidity: ' + weather.main.humidity;
-    this.temp.textContent = 'temp: ' + weather.main.temp
+    this.humidity.textContent = `humidity: ${weather.main.humidity} K`;
+    this.temp.textContent = `temp: ${weather.main.temp} K`;
   }
 }
