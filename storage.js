@@ -1,7 +1,7 @@
 class Storage {
   constructor() {
     this.zipcode;
-    this.defaultZip = '02171';
+    this.defaultZip = '02111'; //boston zipcode
   }
 
   getLocationData() {
