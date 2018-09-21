@@ -1,5 +1,6 @@
 class Weather {
   constructor(zipcode) {
+    // get api key from openweathermap.org
     this.apiKey = '';
     this.zipcode = zipcode;
   }
@@ -13,6 +14,12 @@ class Weather {
     
     // returns weather object in JSON from resonseData above
     return responseData;
+  
+  }
 
+  // Change weather location
+  changeLocation(zipcode) {
+    this.zipcode = zipcode;
+      
   }
 }
